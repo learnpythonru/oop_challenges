@@ -17,7 +17,7 @@ if __name__ == "__main__":
     jack = User(first_name="Jack", last_name="Dwane", birth_date=datetime.date(1962, 2, 7))
     assert jack.first_name == "Jack"
     assert jack.last_name == "Dwane"
-    assert jack.birth_date == datetime.date(1962, 7, 2)
+    assert jack.birth_date == datetime.date(1962, 2, 7)
 
     jack.last_name = "Lex"
     assert jack.last_name == "Lex"
